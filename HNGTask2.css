@@ -63,8 +63,6 @@ section .day {
   flex: 1;
 }
 .my-image {
-  width: 400px;
-  border-radius: 50%;
   margin-right: 10px;
 }
 .Name-tag {
@@ -175,8 +173,6 @@ hr {
     /* width: clamp(100px, 100%, 600px); */
   }
   .my-image {
-    width: 300px;
-    border-radius: 50%;
     margin-right: 10px;
   }
   .Name-tag {
@@ -239,7 +235,6 @@ hr {
     font-weight: 500;
     color: var(--text);
     line-height: 2;
-    padding: 5px;
   }
   .About-Me span {
     color: var(--primary);
@@ -255,8 +250,6 @@ hr {
     grid-template-columns: repeat(1, 1fr);
   }
   .my-image {
-    width: 250px;
-    border-radius: 50%;
     margin-right: 10px;
   }
   .Name-tag {
