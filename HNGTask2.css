@@ -73,6 +73,7 @@ section .day {
 }
 .About-Me {
   font-size: 20px;
+  font-weight: 500;
   color: var(--text);
   line-height: 2;
   padding: 5px;
@@ -152,6 +153,16 @@ hr {
     text-align: center;
     grid-template-columns: repeat(1, 1fr);
   }
+  .About-Me {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--text);
+    line-height: 2;
+    padding: 2px;
+  }
+  .About-Me span {
+    color: var(--primary);
+  }
   .My-Goals {
     padding: 1rem;
     margin-top: 20px;
@@ -165,6 +176,86 @@ hr {
   }
   .my-image {
     width: 300px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .Name-tag {
+    text-align: center;
+  }
+  hr {
+    width: 60%;
+  }
+  .total-goal-container .beginning-text {
+    text-align: center;
+    font-size: 30px;
+    color: var(--primary);
+    /* text-decoration: underline solid var(--accent); */
+  }
+  .goal,
+  .goal,
+  .goal,
+  .goal {
+    background-color: white;
+    border-radius: 5px;
+    margin: 1em;
+    padding: 1em;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s;
+  }
+  .goal h2:first-child,
+  .goal h2:first-child,
+  .goal h2:first-child,
+  .goal h2:first-child {
+    color: var(--primary);
+    font-size: 30px;
+  }
+
+  .goal p,
+  .goal p,
+  .goal p,
+  .goal p {
+    color: var(--text);
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 600px) {
+  .profile {
+    margin-bottom: 90px;
+    background-color: #f6eeff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .About-Me {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text);
+    line-height: 2;
+    padding: 5px;
+  }
+  .About-Me span {
+    color: var(--primary);
+  }
+  .My-Goals {
+    padding: 1rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #f6eeff;
+    display: grid;
+    place-items: center;
+
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .my-image {
+    width: 250px;
     border-radius: 50%;
     margin-right: 10px;
   }
@@ -210,18 +301,4 @@ hr {
     line-height: 2;
     font-weight: 500;
   }
-}
-
-@media (max-width: 600px) {
-  /* .profile {
-    padding: 1rem;
-    margin-top: 50px;
-    margin-bottom: 90px;
-    background-color: #f6eeff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    display: grid;
-    align-items: center;
-    text-align: center;
-    grid-template-columns: repeat(1, 1fr);
-  } */
 }
