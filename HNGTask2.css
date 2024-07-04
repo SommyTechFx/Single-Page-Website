@@ -44,10 +44,13 @@ section .day {
 
 .profile {
   /* border: 1px solid red; */
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  /* border: 1px solid var(--primary); */
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 2rem;
   margin-top: 20px;
   margin-bottom: 90px;
   background-color: #f6eeff;
@@ -61,6 +64,7 @@ section .day {
 .profile-section-sub2 {
   /* border: 1px solid brown; */
   flex: 1;
+  padding: 1rem;
 }
 .my-image {
   margin-right: 10px;
@@ -70,7 +74,7 @@ section .day {
   margin-right: 10px;
 }
 .About-Me {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
   color: var(--text);
   line-height: 2;
