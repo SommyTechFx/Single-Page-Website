@@ -59,7 +59,7 @@ section .time {
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  margin-top: 20px;
+
   margin-bottom: 90px;
   background-color: #f6eeff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -206,7 +206,7 @@ hr {
   }
   .total-goal-container .beginning-text {
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     color: var(--primary);
     /* text-decoration: underline solid var(--accent); */
   }
