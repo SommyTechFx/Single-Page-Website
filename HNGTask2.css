@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: var(--background);
@@ -25,7 +24,7 @@ header {
   /* width: 100%; */
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem;
+  padding: 1rem;
   font-family: "Dancing Script";
   font-size: 30px;
   font-weight: 400;
@@ -41,6 +40,14 @@ header a {
 }
 section .day {
   margin-right: 5px;
+  color: var(--primary);
+  font-size: 25px;
+  font-family: "dancing script";
+}
+section .time {
+  color: var(--secondary);
+  font-size: 25px;
+  font-family: "dancing script";
 }
 
 .profile {
